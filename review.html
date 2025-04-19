@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>review</title>
+    <link rel="stylesheet" href="review.css">
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <body class="review-container">
+    
+        <div>
+        <h3 class="slides">     <br> Reviews<br><br>
+     The service was great, very polite staff. Ihad pork belly ribs and fries. They were exactly what I<br>
+    wanted. The portionsare big, I only managed to have 1/2 of my food.Their mutura is the best I've ever<br>
+    had.The mocktails were also very good.I'll definitely be back.<br><br>
+        Lynn Waweru<br>
+        KITISURU</p>
+        </h3>
+        <h3 class="slides"><br> Reviews<br><br>  
+        <p>The service at Ankole is stellar and the food isamazing. Even on a busy night, the waiters and waitresses are <br>able to handlethe pressure. The DJ does a great job of setting the mood with a diverseselection of old school<br> jams. If you're planning to go for a late dinner, getthere before 10pm because you'll find the kitchen closed.<br><br>
+        Michael Njogu<br>
+         KITISURU
+    </h3>
+    <h3 class="slides"> <br>Reviews<br><br>
+        Greatcocktails. I love the ambience. The food was superb. Beautiful garden. Goodstaff. Nice for a date or a <br>group event. Many smaller spaces that flow intoeach other so never seems packed. The architect did a great <br>job.One of myfavorites. Definitely going back<br><br>
+        Sidney Chahonyo<br>
+        KITISURU   
+    
+    </h3>
+    <div class="next">
+     <button id="display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button id="display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+       </div>
+    
+    
+
+       <div class="icone">
+    
+        <div>
+            <img src="images/65c0b0524cdc940f7455af22_logo.svg">
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="nav">
+        <ul>
+            
+           <li> <a href=""><i class="fa-solid fa-bars"></i></a></li> 
+           <li><a href=""> <i class="fa-regular fa-clock"> </a></i></li>   
+       <li> <a href="index.html"id="nav"> Home</a></li>
+       <li> <a href="menu.html" id="nav"> Menu</a></li>
+       <li><a href="review.html"id="nav"> Reviews</a></li>
+       <li><a href="events.html"id="nav"> Events</a></li>
+        <li><a href="live.html" id="nav">Live</a></li>
+       <li> <a href="contact.html" id="nav">Contacts</a></li>
+       
+       <li> <a href="reservations.html" id="res"> Reservations </a></li>
+    
+       </ul>
+    </div>
+    <div class="whatsapp">
+    
+      <img src="images/15707843.png" alt=""> 
+   
+  </div>
+  <div class="instagram">
+  <i class="fa-brands fa-square-instagram"></i>
+  </div>
+  <div class="facebook">
+  <i class="fa-brands fa-facebook"></i>
+  </div>  
+  
+
+
+  <div class="quots">
+    <i class="fa-solid fa-quote-left"></i>
+  </div>
+  <div class="leftquots">
+    <i class="fa-solid fa-quote-left"></i>
+  </div>
+       <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("slides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+        
+    
+    
+</body>
+</html>

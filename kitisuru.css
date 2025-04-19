@@ -1,0 +1,212 @@
+body{
+    overflow: hidden;
+    border: transparent;
+}
+.nav ul{
+    border: none;
+    background-color: black;
+    border-radius: 4em;
+    z-index: 1;
+    margin-left: 12%;
+    padding:1.5em;
+    margin-bottom: 1px;
+    gap: 5%;
+    display: flex;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+    object-fit: contain;
+    opacity: 1.0;
+    width: 155%;
+}
+.nav a{
+    color: white;
+    font-size: 110%;
+    text-decoration: none;
+}
+.nav {
+    position: absolute;
+    top: 90%;
+    left: 23%;
+ z-index: 1
+}
+.kit-img img{
+    width: 140vh;
+   
+height: 100vh;
+
+
+}
+#res{
+    background-color: grey;
+    border-radius: 51px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 26%;
+}
+.icone img{
+    position: absolute;
+    z-index: 1;
+    top: 12%;
+    left: 19%;
+    object-fit: contain;
+    max-width: 18%; max-height: 18%;
+
+}#menu{
+    z-index: 1;
+    position: absolute;
+    top:41%;
+    left: 20%;
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#kiti{
+    z-index: 1;
+    position: absolute;
+    top: 45%;
+    left: 18%;
+    color:brown;
+    font-size: 58px;
+    font-family:'Times New Roman', Times, serif;
+
+
+}.navigation ul{
+    display: flex;
+    cursor: pointer;
+    object-fit: contain;
+    opacity: 1.0;
+gap: 10%;
+margin-top: 1%;
+margin-left: 27%;
+list-style-type: none;
+
+}
+.navigation{
+   
+    left: 45%;
+}
+.navigation a{
+    color: white;
+    margin-top: 2%;
+    text-decoration: none;
+}
+#coffee{
+color: brown;
+}
+.breakfast{
+    margin-left: 2%;
+}
+
+.listfoods{
+    margin-left: 2%;
+}
+
+
+.break{
+    display: flex;
+    gap: 5%;
+    margin-left: 2%;
+
+}
+.price{
+    line-height: 5em;
+}
+
+.container{
+background-color:black;
+z-index: 1;
+transform: translate(-50%,-50%);
+object-fit: contain;
+opacity: 1.0;
+width: 107vh;
+height:110%;
+margin-top: -27.5%;
+margin-left: 80%;
+color: white;
+overflow: auto;
+height: 100vh;
+font-size: 0.8em;
+font-size: 17.6px;
+
+
+
+}
+#img{
+max-height: 4.5em; max-width: 4.5em;
+}
+.food-price{
+    display: flex;
+    gap: 4%;
+    
+
+}
+.food{
+    display: flex;
+    gap: 4%;
+   
+
+}.third-food{
+    display: flex;
+    gap: 4%;
+}
+.fourth-food{
+    display: flex;
+    gap: 4%;
+}
+.fivth-food{
+    display: flex;
+    gap: 4%;
+}
+
+
+
+.discover{
+    display:flex;
+    gap: 6%;
+    color:white;
+    margin-left: 2%;
+}
+.listdrinks{
+    display: flex;
+    gap: 62%;
+    margin-left: 4%;
+}
+.drinks p1{
+    color: brown;
+    font-weight: bolder;
+    margin-left: 3%;
+}.drinks h3{
+    margin-left: 3%;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.breakfast h3{
+    font-size: 25px;
+
+}
+.listfoods h3{
+    font-size: 25px;
+}
+.listfoods h4{
+    color: brown;
+    font-weight: bolder;
+}
+.whatsapp img{
+
+    position: absolute;
+  z-index: 1;
+  top: 92%;
+  left: 96%;
+  transform: translate(-50%,-50%);
+  object-fit: contain;
+  width: 3%;}
+  .nav a:hover {
+    background-color: #777777c2;
+    
+  }
+  #res:hover {
+    background-color: white;
+    color: black;
+}

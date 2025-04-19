@@ -1,0 +1,282 @@
+body{
+    overflow: hidden;
+}
+.images{
+    display: flex;
+    gap: 20%;
+
+}
+.live{
+    display: flex;
+    
+    
+    
+}.talk:hover{
+    transform: scale(1.05);
+}
+
+
+.kiliman{
+    display: flex;
+    gap: -4%;
+    margin-top: -4%;
+}.jack{
+    display: flex;
+    gap: 1%;
+}
+.img img{
+    width: 172%;
+    height: 88%;
+}
+.kiliman img{
+    width: 43%;
+    
+}
+.jack img{
+width: 43%;
+
+}
+.text p{
+    color: rgba(255, 0, 0, 0.89); 
+}
+
+.mush p{
+    color: rgba(255, 0, 0, 0.89); 
+}
+.muguna p{ 
+    color: rgba(255, 0, 0, 0.89);    
+}
+.text h2{
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    
+    
+}
+
+
+.mush h2,.muguna h2{
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+.text{
+    margin-top: 11%;
+}
+.mush{
+    margin-top: 10%;
+}
+.muguna{
+    margin-top: 2%;
+}
+.nav ul{
+    border: none;
+    background-color: black;
+    border-radius: 4em;
+    z-index: 1;
+    margin-left: 10%;
+    padding:1.5em;
+    margin-bottom: 1%;
+    gap: 5%;
+    display: flex;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+    object-fit: contain;
+    opacity: 1.0;
+    width: 155%;
+    margin-top: 5%;
+    
+    
+    }
+    .nav {
+       position: absolute;
+       top: 90%;
+       left: 23%;
+    z-index: 1;
+    
+    }
+    
+    
+     .nav a{
+       color: white;
+       font-size: 110%;
+       text-decoration: none;
+     }
+     #res {
+      background-color: grey;
+      border-radius: 50px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 26%;
+    }
+    .resname img{
+        position: absolute;
+        z-index: 1;
+        top: 10%;
+        left: 19%;
+        object-fit: contain;
+        max-width: 24%; max-height: 24%;
+    } 
+    .talk{
+        text-align: center;
+        padding-left: 400px;
+        
+    } 
+
+    .talk h5{
+     font-size: 30px;
+     color: white;
+     margin-top: 15em;
+     
+    }
+    .talk h2{
+        font-size: 60px;
+        color:rgba(255, 0, 0, 0.568);
+        margin-top: -0.8em;
+        
+        
+    }
+    .live{
+        background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url(images/live-image.jpg);
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        
+        text-align: center;
+        
+        background-size: cover;
+        background-position: center;
+      } 
+      .mix img:hover{
+         transform: scale(1.1);
+      }
+      .mix{
+        overflow: scroll;
+        height: 100vh;
+        margin-left: 90vh;
+
+    }
+    .mix{
+        width: 70%;
+        margin-left: 500px;
+      }
+      .whatsapp img{
+
+        position: absolute;
+      z-index: 1;
+      top: 92%;
+      left: 97%;
+      transform: translate(-50%,-50%);
+      object-fit: contain;
+      width: 3%;
+      
+       }
+      .instagram{
+        position: absolute;
+        z-index: 1;
+        top: 8%;
+        left: 96.8%;
+        transform: translate(-50%,-50%);
+        object-fit: contain;
+        max-width: 25%;
+        
+      }
+      .facebook{
+        position: absolute;
+        z-index: 1;
+        top: 8%;
+        left: 98%;
+        transform: translate(-50%,-50%);
+        object-fit: contain;
+        max-width: 25%
+      }
+        
+      .nav a:hover {
+        background-color: #777777c2;
+        
+      }
+      #res:hover {
+        background-color: white;
+        color: black;
+    }
+
+
+    
+    @media screen and (max-width:500px){
+#nav{
+    display: block;
+}
+
+body{
+    overflow: hidden;
+}
+.images{
+    display: column;
+    gap: 20%;
+
+}
+.live{
+    display: column;
+    
+    
+    
+}.talk:hover{
+    transform: scale(1.05);
+}
+
+
+.kiliman{
+    display: column;
+    gap: -4%;
+    margin-top: -4%;
+}.jack{
+    display: block;
+    gap: 1%;
+}
+.img img{
+    width: 17%;
+    height: 88%;
+}
+.kiliman img{
+    width: 43%;
+    
+}
+.jack img{
+width: 43%;
+
+}
+
+.text h2{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    
+    
+}
+
+
+.mush h2,.muguna h2{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.text{
+    margin-top: 11%;
+}
+.mush{
+    margin-top: 10%;
+}
+.muguna{
+    margin-top: 2%;
+}
+.nav ul{
+
+    display: block;
+
+    
+    
+}
+
+    }

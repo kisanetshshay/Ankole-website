@@ -1,0 +1,142 @@
+body{
+    overflow: hidden;
+}
+
+
+
+.slides{
+    margin-left: 2%;
+    margin-top: 21%;
+    display: none;
+    text-align: center;
+    color: white;
+}
+
+
+.next{
+    display: flex;
+    gap: 70%;
+    margin-left: 22%;
+    margin-top: -7%;
+    
+}
+
+
+
+.review-container{
+    background-color:rgba(0, 0, 0, 0.973);
+    background-size: cover;
+
+}
+
+.icone img{
+    position: absolute;
+    z-index: 1;
+    top: 11%;
+    left: 46%;
+    object-fit: contain;
+    max-width: 19%; max-height: 18%;
+}
+
+.nav ul{
+    
+    background-color:rgb(0, 0, 0);
+    border-radius: 4em;
+    z-index: 1;
+    margin-left: 12%;
+    padding:1.5em;
+    margin-bottom: 1px;
+    gap: 5%;
+    display: flex;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+    object-fit: contain;
+    opacity: 1.0;
+    width: 155%;
+}
+.nav a{
+    color: white;
+    font-size: 110%;
+    text-decoration: none;
+}
+.nav {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+ z-index: 1;
+}
+#res {
+    background-color: grey;
+    border-radius: 51px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 26%;
+}
+.whatsapp img{
+
+    position: absolute;
+  z-index: 1;
+  top: 92%;
+  left: 97%;
+  transform: translate(-50%,-50%);
+  object-fit: contain;
+  width: 3%;
+  
+   }
+  .instagram{
+    position: absolute;
+    z-index: 1;
+    top: 8%;
+    left: 96.8%;
+    transform: translate(-50%,-50%);
+    object-fit: contain;
+    max-width: 25%;
+    
+  }
+  .facebook{
+    position: absolute;
+    z-index: 1;
+    top: 8%;
+    left: 98%;
+    transform: translate(-50%,-50%);
+    object-fit: contain;
+    max-width: 25%
+  }
+  .quots{
+    color: brown;
+    margin-left: 25%;
+    margin-top: -6%;
+    
+
+  }
+  .leftquots {
+    color: brown;
+    margin-left: 72%;
+    margin-top: 10%;
+
+  }.nav a:hover {
+    background-color: #777777c2;
+    
+  }
+  #res:hover {
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width:500px){
+body{
+  overflow: hidden;
+}
+.next{
+  display: column;
+}
+
+.nav ul{
+  display: flex;
+  
+}
+#nav{
+  display: none;
+}
+}

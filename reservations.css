@@ -1,0 +1,152 @@
+body {
+    overflow: hidden;
+}
+
+.reservation {
+    display: flex;
+}
+
+.container lable {
+    margin-left: 35%;
+}
+
+.container {
+
+    margin-top: 4%;
+    color: beige;
+
+
+}
+
+.container input {
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: solid 1px;
+    border: solid 1px grey;
+    width: 340%;
+    background-color: black;
+    color: white;
+    margin-left: 35%;
+    color-scheme: dark;
+}
+
+.button button {
+    padding: 25px;
+    margin-top: 23%;
+    width: 360%;
+    border-radius: 15px;
+    margin-left: 35%;
+    cursor: pointer;
+    color: black;
+    box-shadow: black;
+}
+
+
+
+.button button:hover {
+    background-color: rgba(222, 184, 135, 0.959);
+}
+
+.kar h2 {
+    font-size: 62px;
+    color: brown;
+    margin-top: -5%;
+
+}
+
+.kar h4 {
+    font-size: 35px;
+
+    color: white;
+    margin-top: 45%;
+}
+
+body {
+    background-color: black;
+
+}
+
+.kar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(images/desktop-wallpaper-wonderland-tropical-emerald-green-holden-wow036-in-2020-tropical-jungle-tropical-art.jpg);
+    height: 100vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.nav ul {
+
+    background-color: black;
+    border-radius: 4em;
+    z-index: 1;
+    margin-left: 70%;
+    padding: 1.5em;
+    margin-bottom: 1px;
+    gap: 5%;
+    display: flex;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    opacity: 1.0;
+    width: 155%;
+
+}
+
+.nav a {
+    color: white;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+.nav {
+    position: absolute;
+    top: 90%;
+    left: 31%;
+    z-index: 1
+}
+
+#res {
+    background-color: grey;
+    border-radius: 51px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 26%;
+}
+
+.resname img {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 21%;
+    object-fit: contain;
+    max-width: 20%;
+    max-height: 20%;
+
+}
+
+.whatsapp img {
+
+    position: absolute;
+    z-index: 1;
+    top: 92%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    width: 3%;
+
+}
+
+.nav a:hover {
+    background-color: #777777c2;
+
+}
+
+#res:hover {
+    background-color: white;
+    color: black;
+}

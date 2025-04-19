@@ -1,0 +1,171 @@
+body{
+    overflow: hidden;
+}
+
+
+.events{
+    display: flex;
+    width: 100%;
+
+    text-align: center;
+}
+.accara p1{
+    
+    color: gray;
+}
+.accara h3{
+    color: white;
+    font-size: 42px;
+    
+}.accara p{
+    color: white;
+}
+.nairobi p{
+color: white;
+}
+
+.zanzibar p{
+    color: white;
+}
+
+.accara p2{
+    color: rgb(165, 91, 42);
+    font-weight: bolder;
+
+    
+    
+}
+.nairobi p1{
+color: grey;
+}.nairobi h3{
+font-size: 42px;
+color: white;
+}
+ .nairobi p2{
+    color: rgb(165, 81, 42);
+    font-weight: bolder;
+ }
+
+ .zanzibar p1{
+    color: grey;
+    }.zanzibar h3{
+    font-size: 42px;
+    color: white;
+    }
+     .zanzibar p2{
+        color: rgb(165, 81, 42);
+        font-weight: bolder;
+     }
+     .accara {
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(images/accra.jpeg);
+        height: 68vh;
+        width: 33%;
+        background-repeat: no-repeat;
+        position: relative;
+        padding-top: 17%;
+        background-size: cover;
+        background-position: center;
+
+     }
+    .nairobi{
+        background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url(images/nairobi\ \(1\).jpg);
+        height: 68vh;
+        width: 34%;
+        background-repeat: no-repeat;
+        position: relative;
+        padding-top: 17%;
+        background-size: cover;
+        background-position: center;
+    }
+      .zanzibar{
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(images/zanzibar.jpg);
+        
+        height: 68vh;
+        width: 34.5%;
+        background-repeat: no-repeat;
+        position: relative;
+        padding-top: 17%;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .nav ul{
+    
+        background-color:black;
+        border-radius: 4em;
+        z-index: 1;
+        margin-left: 30%;
+        padding:1.5em;
+        margin-bottom: 1px;
+        gap: 5%;
+        display: flex;
+        cursor: pointer;
+        transform: translate(-50%,-50%);
+        object-fit: contain;
+        opacity: 1.0;
+        width: 155%;
+        
+    }
+    .nav a{
+        color: white;
+        font-size: 110%;
+        text-decoration: none;
+    }
+    .nav {
+        position: absolute;
+        top: 90%;
+        left: 42%;
+     z-index: 1;
+    }
+
+     #res {
+        background-color: grey;
+        border-radius: 51px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 26%;}
+        .whatsapp img{
+
+            position: absolute;
+          z-index: 1;
+          top: 92%;
+          left: 96%;
+          transform: translate(-50%,-50%);
+          object-fit: contain;
+          width: 3%;
+          
+           }
+          .instagram{
+            position: absolute;
+            z-index: 1;
+            top: 8%;
+            left: 96.8%;
+            transform: translate(-50%,-50%);
+            object-fit: contain;
+            max-width: 25%;
+            
+          }
+          .facebook{
+            position: absolute;
+            z-index: 1;
+            top: 8%;
+            left: 98%;
+            transform: translate(-50%,-50%);
+            object-fit: contain;
+            max-width: 25%
+          }
+          .nav a:hover {
+            background-color: #777777c2;
+            
+          }
+          #res:hover {
+            background-color: white;
+            color: black;
+        }
+        @media screen and(max-width:500px){
+          body{
+            overflow: hidden;
+          }
+        }
