@@ -126,31 +126,22 @@ width: 3%;
 
 
 @media screen and (max-width: 500px) {
-  body {
-      overflow: hidden;
-  }
-
-  .mySlides {
-      height: 15vh;
-      width: 110%; 
-  }
-
+body{
+  overflow: hidden;
+}
   .nav ul {
       margin-left: 0; 
-      width: auto;
-      display: block; 
-      padding: 1em;
-      gap: 1em; 
+      width: 100%;
+      flex-direction: column; 
+      padding: 0.5em;
+      text-decoration: none;
+      list-style-type: none;
+      
+      
       
   }
-#nav{
-  display: none;
-
-  
-
-}
   .nav {
-      top: 35%; 
+      top: 95%; 
       left: 50%; 
       transform: translate(-50%, -50%);
   
@@ -162,37 +153,38 @@ width: 3%;
   }
 
   #res {
-      width: 10%; 
-      font-size: 90%; 
+      width: 80%; 
+       
   }
 
   #icone {
-      top: 22%; 
-      left: 50%;
+      
+      left: 15%;
       max-width: 10%; 
   }
 
-  .page, .pages {
+  .page{
+    font-size: 50px; 
+      right:78%; 
+    transform: translate(-50%,-50%);
+  
+  }
+   .pages {
       font-size: 50px; 
-      margin-left:35%; 
-      text-align: center;
+      right:72%; 
+    transform: translate(-50%,-50%);
   }
 
   .whatsapp img {
-      top: 23%; 
-      left: 90%; 
+    
       width: 5%; 
   }
 
   .instagram, .facebook {
-      top: 6%; 
-      left: auto; 
-      max-width: 15%;
+      width: 5%;
   }
-
-  .nav a:hover {
-      background-color: #999; 
-  }
-
+#nav{
+  display: none;
+}
   
 }

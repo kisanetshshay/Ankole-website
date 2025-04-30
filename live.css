@@ -203,80 +203,21 @@ width: 43%;
     }
 
 
+
+
+     @media (max-width: 375px) { 
+        .social-icons {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     
-    @media screen and (max-width:500px){
-#nav{
-    display: block;
-}
-
-body{
-    overflow: hidden;
-}
-.images{
-    display: column;
-    gap: 20%;
-
-}
-.live{
-    display: column;
+        .social-icons div {
+            margin: 5px; 
+            font-size: 24px;
+        }
     
-    
-    
-}.talk:hover{
-    transform: scale(1.05);
-}
-
-
-.kiliman{
-    display: column;
-    gap: -4%;
-    margin-top: -4%;
-}.jack{
-    display: block;
-    gap: 1%;
-}
-.img img{
-    width: 17%;
-    height: 88%;
-}
-.kiliman img{
-    width: 43%;
-    
-}
-.jack img{
-width: 43%;
-
-}
-
-.text h2{
-    font-size: 20px;
-    font-weight: bolder;
-    color: white;
-    
-    
-}
-
-
-.mush h2,.muguna h2{
-    font-size: 20px;
-    font-weight: bolder;
-    color: white;
-}
-.text{
-    margin-top: 11%;
-}
-.mush{
-    margin-top: 10%;
-}
-.muguna{
-    margin-top: 2%;
-}
-.nav ul{
-
-    display: block;
-
-    
-    
-}
-
+        .logo img {
+            width: 80%;
+        }
     }

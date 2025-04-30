@@ -151,14 +151,48 @@ body{
     overflow: hidden;
 }
 .nav ul{
-    display:block;
-    width: 30%;
-    margin-top:30%;
+    display: block;
+    width: 35%;
+    margin-top:89%;
 }
 
+.com{
+flex-direction: column;
+    /* gap: 2%; */
+    margin-top: 10%;
+    margin-left: -29%;
 
-
-}
-
-      
+}.address {
+    padding-left: 15px;
+    width: 65%;
+    color:white;
+    margin-top: 20%;
+    margin-left: 28%;
     
+
+}   
+
+.addresskili{
+    
+    width: 64%;
+    color:white;
+    margin-left: 28%;
+    padding-left: 30px;
+    
+} 
+.nav {
+
+    top: 106%;
+    left: 10%;
+ z-index: 1
+       
+}
+.resname img{
+
+    z-index: 1;
+    top: 5%;
+    left: 38%;
+    
+    max-width: 22%; max-height: 22%;
+
+}}

@@ -107,14 +107,16 @@ body{
   .quots{
     color: brown;
     margin-left: 25%;
-    margin-top: -6%;
+    margin-top: -9%;
+    font-size: xxx-large;
     
 
   }
   .leftquots {
     color: brown;
-    margin-left: 72%;
+    margin-left: 75%;
     margin-top: 10%;
+    font-size: xxx-large;
 
   }.nav a:hover {
     background-color: #777777c2;
@@ -139,4 +141,39 @@ body{
 #nav{
   display: none;
 }
+.quots{
+  color: brown;
+  margin-left: 25%;
+  margin-top: -35%;
+  
+
+}
+.leftquots {
+  color: brown;
+  margin-left: 72%;
+  margin-top: 8%;
+}
+.icone img{
+  position: absolute;
+  z-index: 1;
+  top: 11%;
+  left: 43%;
+  object-fit: contain;
+  max-width: 19%; max-height: 18%;
+}
+.slides{
+  margin-left: 2%;
+  margin-top: 39%;
+  display: none;
+  text-align: center;
+  color: white;
+}
+.next{
+  display: flex;
+  gap: 70%;
+  margin-left: 20%;
+  margin-top: -1%;
+  
+}
+
 }

@@ -95,6 +95,7 @@ body{
     color: white;
     font-size: 110%;
     text-decoration: none;
+    
   }
   
   .nav {
@@ -181,68 +182,112 @@ body{
 
     body{
         overflow: hidden;
+        border: transparent;
     }
-    .nav{
-        width: 30%;
+    .nav a{
+        width: 100%;
+        font-size: 90%;
+        padding: 0.5em;
+        text-align: center;
     
     }
     .nav ul{
-       display:block; 
-    }
-    .nav ul a{
-        font-size: 10px;
-    }
-    #res{
-        border-radius: 20px;
-        padding:1px;
-        border:2px ;
-        margin-top: 30px;
-        height:30px;
-    }
-    .nav ul a{
-        font-size: 15px;
+       display:flex; 
+       flex-direction: column;
+       align-items: center;
+       padding: 0;
+       margin-left: -10%;
+
     }
     
-    
-    
-    #kiti-text{
-        font-size: 50px;
-    }
 
     .kitis{
-        width: 100%;
-        display:column;
+        margin-top: -25px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 5px;
     }
     .kilimani{
-        background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url("images/65e5a29a2a2b1c4a493fff75_ankolegrill_Kilimani-Nights.jpg");
-        height:100vh;
-        width: 70%;
-        background-repeat: no-repeat;
-        position: relative;
+        margin-top: 2px;
+        text-align: center;
+        width: 100%;
+        font-size: 5px;
         
-        background-size: cover;
-        background-position: center;
 
     }
     .Kitisuru{
-        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(images/65c300769e92e351d540231f_bg.jpg);
-        height: 100vh;
-        width:90%;
-        background-repeat: no-repeat;
-        position: relative;
-        background-size: cover;
-        background-position: center;
+    
+        
+        width:100%;
+
     }
+.whatsapp img{
+    width: 5%;
+}
+.nav {
+flex-direction: column;
+width: 15%;
+padding: 1em;
+margin-top: 200%;
+margin-left: -18%;
+}
+
 #kar{
-    margin-left: 5%;
-}
+    
+    
+    top: 37%;
+    left: 35%;
+    
 
+}
+#kit{
+    
+    
+    top:41%;
+    left: 32%;
+    
+}
+#exp{
+    
+    
+    top:57%;
+    left: 30%;
+} 
+#dis{
+    
+    position: absolute;
+    top: 30%;
+    left: 35%;
+
+  
+}
 #kili{
-    margin-left: 15%;
+    
+    
+    top:34%;
+    left: 30%;
+    
 }
-#nav {
-    display:none;
+#explore{
+    
+    
+    top:48%;
+    left: 28%;
+    
 }
+.resname img{
+
+    top: 18%;
+   margin-left:  40%;
 
 
+}
+
+.nav {
+    position: absolute;
+    top: 85%;
+    left: 30%;
+
+}
 }
